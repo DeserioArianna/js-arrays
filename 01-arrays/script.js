@@ -17,7 +17,7 @@ const teachers = [
 
 for (let i = 0; i < teachers.length; i++) {
   const curItem = teachers[i];
-  console.log(` ${curItem} l'insegnante è in posizione ${indice}`);
+  console.log(`${curItem} l'insegnante è in posizione ${i}`);
 }
 
 
