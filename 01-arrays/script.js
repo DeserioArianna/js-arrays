@@ -11,9 +11,15 @@ const teachers = [
 // 0. Per ogni insegnante stampa in console la frase:
 // [Nome insengante] è l'insegnante in posizione [i]
 
-teachers.forEach((teacher, indice) => {
-  console.log(` ${teacher} l'insegnante è in posizione ${indice}`);
-});
+// teachers.forEach((teacher, indice) => {
+//   console.log(` ${teacher} l'insegnante è in posizione ${indice}`);
+// });
+
+for (let i = 0; i < teachers.length; i++) {
+  const curItem = teachers[i];
+  console.log(` ${curItem} l'insegnante è in posizione ${indice}`);
+}
+
 
 
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
